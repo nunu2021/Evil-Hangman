@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="508.0" prefWidth="594.0" style="-fx-background-color: gray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="evilhangman.FXMLDocumentController">
+    <children>
+        <Button fx:id="play" alignment="CENTER" layoutX="201.0" layoutY="195.0" onAction="#handleButtonAction" prefHeight="119.0" prefWidth="192.0" style="-fx-background-color: pink;" text="Play" textFill="#f50606">
+         <font>
+            <Font name="Chalkboard" size="53.0" />
+         </font></Button>
+        <Label fx:id="label" alignment="CENTER" layoutX="184.0" layoutY="26.0" minHeight="16" minWidth="69" prefHeight="87.0" prefWidth="226.0" text="Evil Hangman" textFill="#d3eb07" wrapText="true">
+         <font>
+            <Font name="Papyrus Condensed" size="44.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
